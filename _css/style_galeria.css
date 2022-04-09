@@ -1,0 +1,53 @@
+@font-face {
+    font-family:'oftalmo';
+    src: url('Cream Cake.otf') format('opentype'),url('Recoleta-RegularDEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.small_img{
+    height: 95%;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3m;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+/*
+#modal_img{
+    width: 65vw;
+}
+*/
+/*
+.modal{
+    height: 100vw;
+    width: 100vh;
+    background-color: rgba(0,0,0);
+}
+*/

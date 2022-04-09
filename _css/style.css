@@ -1,0 +1,207 @@
+body,html {
+        height: 100%;
+        margin: 0;
+        }
+        
+       .bg{
+        background-image: url("../_img/fundo_de_tela.jpg");
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /*Para a imagem permanecer fixa na pagina*/
+       /* background-attachment: fixed;*/
+       background-color: #D8F3DC;
+      }
+     #imagetopsite{
+        height: 20px;
+        width: 30px;
+        margin-top: 0px;
+      /*font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color:blue; */
+      /*
+      .topsite{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:blue;*/
+    } 
+    /* atributos das fontes da Nav*/
+    .fontnav{
+      font-size: 19px;
+      font-family: Arial, Helvetica, sans-serif;
+      color:blue;
+      }
+      .container{
+        margin-bottom: 30px;
+        border: 2px solid  	#6495ED;
+        }
+/*Estilos Gerais*/
+
+/*Cor geral do Projeto*/
+*{
+  color: #e6fff9;
+}
+a,i{
+  transition:.5s;
+  text-decoration: none;
+}
+/*Cor Secundaria do Projeto*/
+.secudary-color{
+  color:#ccfff3     ;
+}
+terceira-color{
+  color:#009975;
+}
+.center-image{
+  background-size: cover;
+  background-position: center;
+}
+  
+/*Botões vou pegar do bootstrap*/
+.btn{
+  text-decoration:none;
+  background: #25282E;
+  color: #FFF;
+  padding: 7px 18px;
+  border-radius: 0;
+  }
+  
+.btn:hover{
+  background-color: #333;
+  color:#FFF;
+}
+/*definindo tamanho do logo e distancia do elemento nav*/
+#logo-container{
+  width: 1px;
+  height: 1px;
+  margin-top: 10px;
+}
+/*altera a cor dos elementos da navbar qd passamos o mouse por cima*/
+.nav-item:hover{
+  background-color: #ccfff3 ;
+  color: 	#5F9EA0 ;
+}
+/*MAIN IMAGE*/
+.main-image{
+  height: 400px;
+  background-image: url("");
+}
+.main-image-info,p{
+   color: blue;
+   position: absolute;
+   margin-top: 50px;
+   padding: 20px;
+   left: 10px;
+ }
+ 
+    /*Quem Somos Image*/
+    .quemsomos-image{
+      height: 600px;
+      background-image: url("");
+      margin: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+     /* .quemsomos-image-info{
+        background-color: #E0FFFF;
+        font-size: 18px;
+        color: blue;
+        position: absolute;
+        margin-top: 500px;
+        padding: 20px;
+        left: 35px;
+        width: 1000px; 
+        bottom: 15px;
+      }*/
+      .paragrafo {
+        color: blue;
+        font-size:medium;
+        left: 30px;
+        bottom:   10px;
+        position: relative;
+      }  
+      #galery-container h1,
+      galary-container .col-md-6,
+      galary-container .col-md-12{
+      margin-bottom: 50px;
+      }
+      
+      .small-image-conteiner{
+        height: 250px;
+        margin-bottom: 50px;
+     }
+     h3{
+       color: blue;
+     }
+      
+     .small-image-conteiner2{
+      height: 250px;
+      margin-bottom: 20px;
+   }
+   
+/*Cadastro de Clientes*/ 
+*,label{
+  color:blue;
+  font-size: 20px;
+  }
+  
+#titulo{
+  margin-bottom: 20px;    
+  }
+  .inputBottom{
+    margin-bottom: 20px;
+   }
+   /*Definindo estilo para classe error*/
+.error{
+  color:#f00;
+}
+/*Efeito modal pag. Quem somos.php */
+#modal{
+padding: 40px;
+text-align: center;
+}
+/*IMAGENS DO CARROSSEL*/
+#imgcar1{
+  background-image: url(../_img/Exames/biometria.png);
+  height: 20em;
+  }
+  #local{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  /**CARROSEL**/
+  .owl-buttons {
+    display: none;
+  }
+  .owl-carousel:hover .owl-buttons {
+    display: block;
+  }
+  
+  .owl-item {
+    text-align: center;
+  }
+  
+  .owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+    color: #869791;
+    font-size: 40px;
+    line-height: 300px;
+    margin: 0;
+    padding: 0 60px;
+    position: absolute;
+    top: 0;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+    padding-left: 20px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0;
+    padding-right: 20px;
+  }
